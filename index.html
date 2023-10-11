@@ -4,12 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/javascript-js-seeklogo.com.svg"
-    />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/JS.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,13 +14,8 @@
     <title>Frontend Mentor | Interactive card details form</title>
   </head>
   <body>
-    <!--  0000 0000 0000 0000
-  Jane Appleseed
-  00/00
-
-  000
-
-  Cardholder Name
+    <!--
+    Cardholder Name
   e.g. Jane Appleseed
 
   Card Number
@@ -44,7 +34,35 @@
 
   Thank you!
   We've added your card details
-  Continue-->
+  Continue
 
+   <div class="container__form"></div>
+   -->
+    <main>
+      <h1 class="screen-reader">Card detail form</h1>
+      <div class="container">
+        <div class="container__cards">
+          <div class="back-card">
+            <img
+              src="images/bg-card-back.png"
+              alt=""
+              class="back-card__image"
+            />
+            <span class="cvc">000</span>
+          </div>
+          <div class="front-card">
+            <img
+              src="images/bg-card-front.png"
+              alt=""
+              class="front-card__image"
+            />
+            <!--  <img src="images/card-logo.svg" alt="" />
+             <span class="card-number">0000 0000 0000 0000</span>
+             <span class="card-name">Jane Appleseed</span>
+             <span class="card-expiry">mm / yy</span>-->
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
